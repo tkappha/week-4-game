@@ -17,15 +17,18 @@ var lossCount = 0;
 
 // *******    FUNCTIONS  ****************
 
-//generates value of crystals
+//generates values of crystals
 function crystalValue(crystal) {
-	this.crystal = Math.ceil(Math.random()*12);
+	return crystal = Math.ceil(Math.random()*12);
 }
 
 function startGame(){
 	//generates value of number player is trying to match
-	numberToMatch = Math.floor(Math.random()*101) + 19;
-	$("#numberToMatch").text(numberToMatch);	
+	return numberToMatch = Math.floor(Math.random()*101) + 19;
+	
+
+	
+
 
 	//resets for game
 	playerScore = 0;
@@ -53,6 +56,8 @@ function startGame(){
 	});
 
 };
+
+$("#value").text(numberToMatch);
 
 
 
