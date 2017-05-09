@@ -1,9 +1,86 @@
 /*$("body").css("background-color", "black");*/
 
-body {
+	body {
 	background-color: black;
+	background-image: url("../images/caveBackground.png");
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
-title {
-	background-image: url(../images/caveBackground.png);
+img {
+	display: block;
+	margin: auto;
+	height: 100px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 50px;
+}
+
+p {
+	color: rgba(255, 250, 250, 0.9);
+	text-align: center;
+	font-size: 25px;
+}
+
+.instructions {
+	text-align: center;
+}
+
+#instructions {
+	color: rgba(255, 250, 250, 0.9);
+	margin: auto;
+}
+
+div.buttons {
+	padding-top: 20px;
+	margin-left: 17%;
+}
+
+#pinkCrystal {
+	background-image: url("../images/pink.jpg");
+	width: 250px;
+	height: 250px;
+}
+
+#purpleCrystal {
+	background-image: url("../images/amethyst.png");
+	width: 250px;
+	height: 250px;
+}
+
+#redCrystal {
+	background-image: url("../images/garnet.jpg");
+	width: 250px;
+	height: 250px;
+}
+
+#greenCrystal {
+	background-image: url("../images/peridot.jpg");
+	width: 250px;
+	height: 250px;
+}
+
+#playerScore, 
+#numberToGuess {
+	color: white;
+	width: 200px;
+	border: 1px solid white;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left:20%;
+}
+
+#winsAndLosses {
+	color: white;
+	float: left;
+	width: 200px;
+	height: 100px;
+	border: 1px solid white;
+	margin-top: 20px;
 }
