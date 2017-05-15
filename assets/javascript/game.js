@@ -94,7 +94,7 @@ $("#redCrystal").click(function(){
 });
 
 $("#purpleCrystal").click(function(){
-	addValues(crystal.purpleCrystal);
+	addValues(crystal.purple);
 });
 
 
