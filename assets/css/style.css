@@ -1,11 +1,11 @@
 /*$("body").css("background-color", "black");*/
 
-	body {
+/*	body {
 	background-color: black;
 	background-image: url("../images/caveBackground.png");
 	background-repeat: no-repeat;
 	background-position: center top;
-}
+}*/
 
 img {
 	display: block;
@@ -39,6 +39,7 @@ p {
 div.buttons {
 	padding-top: 20px;
 	margin-left: 17%;
+
 }
 
 #pinkCrystal {
@@ -87,4 +88,13 @@ div.buttons {
 
 #value {
 	color: white;
+}
+
+#targetScore {
+	text-align: center;
+	color: blue;
+}
+
+h3 {
+	color: blue;
 }
